@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;;
+}
+
+
+
+.header ul li {
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid aqua ;
+    border-top: auto;
+    border-bottom: auto;
+    border-radius: 30px;
+    gap: 5px;
+}
+
+
+.header ul li a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

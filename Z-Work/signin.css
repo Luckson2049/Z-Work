@@ -5,32 +5,18 @@
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
 /*heading*/
-
-
-
 header {
     background-color: #06092b;
     padding: 10px 0;
 }
-
-
 .logo {
     color: #d2ecec;
-    font-size: 28px;
-    
+    font-size: 28px;  
 }
 span {
     color:rgb(48, 96, 228)
 }
-
-
-
-
 /*LOG-IN-CONTAINER*/
 .log-in-container {
     display: flex;
@@ -48,17 +34,11 @@ span {
     margin-right: auto;
     max-width: 300px;
     width: 100%;
-    
-    
-
 }
-
 legend {
     font-size: 25px;
     color: #070c3d;
 }
-
-
 input {
     border-color: #070c3d;
     border-radius: 30px;
@@ -69,14 +49,11 @@ input {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
-
 /*LOG-IN-BUTTON*/
 label {
     display: block;
     margin: 0.5 rem 0;
 }
-
 button {
     background-color: #fff;
     padding-left: 90px;
@@ -87,7 +64,6 @@ button {
     border-color: #070c3d;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 button a {
     color: #0000;
@@ -97,7 +73,6 @@ button:hover{
     border-radius: 50px;
     transition: 1.5s;
 }
-
 .Sign-Up button{
     background-color: white;
     padding-left: 80px;
@@ -118,21 +93,15 @@ button:hover{
     border-radius: 50px;
     transition: 1.2s;
 }
-
 fieldset {
     border: none;
     margin: auto;
 }
-
 /*DON'T HAVE A ZWORK ACCOUNT?*/
-p {
-    color: #000;
+.Question  {
+    
     margin-top: 20px;
 }
-
-
-
-
 
 /*BOTTOM-NAV-BAR*/
 .bottom-nav-bar {
@@ -144,33 +113,22 @@ p {
     padding-bottom: 120px;
     text-align: center;
     margin: auto;
-    
-
-    
 }
-
 .bottom-nav-bar ul li {
     display: inline-block;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 30px;
     padding-bottom: 0;
-    padding-top: 10px;
-    
-    
+    padding-top: 10px; 
 }
 .bottom-nav-bar ul li a {
     color: #fff;
     text-decoration: none;
 }
-
-
 .bottom-nav-bar ul li a:hover{
     color:aqua
 }
-
-
-
-footer {
+footer, p{
     margin: auto;
     background-color: #050720;
     color: #fff;
@@ -178,13 +136,3 @@ footer {
     padding: 2px 0;
     
 }
-
-
-
-
-
-
-
-
-
-
